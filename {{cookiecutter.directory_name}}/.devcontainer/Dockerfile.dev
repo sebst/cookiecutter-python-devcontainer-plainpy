@@ -24,6 +24,4 @@ RUN /root/.poetry/bin/poetry config --local virtualenvs.in-project true
 COPY . .
 
 
-EXPOSE {{cookiecutter.container_port}}
-
 # CMD [ "python", "./manage.py", "runserver", "0.0.0.0:8000" ]
