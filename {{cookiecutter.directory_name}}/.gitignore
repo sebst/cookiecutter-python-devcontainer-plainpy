@@ -1,0 +1,19 @@
+
+# Created by https://www.gitignore.io/api/vim,node,code,react,linux,macos,emacs,django,direnv,python,pycharm,windows,intellij,powershell
+# Edit at https://www.gitignore.io/?templates=vim,node,code,react,linux,macos,emacs,django,direnv,python,pycharm,windows,intellij,powershell
+
+### Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.env.local
+.envrc.local
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class

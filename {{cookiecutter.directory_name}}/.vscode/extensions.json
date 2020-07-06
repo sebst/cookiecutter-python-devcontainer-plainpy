@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "njpwerner.autodocstring",
+        "ms-vsliveshare.vsliveshare",
+        "ryanluker.vscode-coverage-gutters",
+        // move to global config?
+        "editorconfig.editorconfig",
+        "mikestead.dotenv",
+        "ybaumes.highlight-trailing-white-spaces",
+        "jeff-hykin.code-eol",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "tomoki1207.pdf",
+        "hnw.vscode-auto-open-markdown-preview",
+        "bierner.github-markdown-preview",
+    ]
+}

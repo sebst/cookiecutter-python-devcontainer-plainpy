@@ -1,0 +1,13 @@
+{
+    "project_title": "Galactus",
+    "year": "{% now 'utc', '%Y' %}",
+    "directory_name": "{{ cookiecutter.project_title }}",
+    "container_mame": "{{ cookiecutter.project_title + ': Devcontainer' }}",
+    "project_name": "{{ cookiecutter.project_title.lower() + '-service' }}",
+    "service_name": "{{ cookiecutter.project_name.replace('-', '') }}",
+    "docker_base_image": "python:3.8-slim",
+    "author_name": "Sebastian Steins",
+    "project_version": "0.0.0",
+    "project_description": "{{ cookiecutter.project_title + ' Django Project by ' + cookiecutter.author_name }}",
+    "project_licence": "MIT"
+}

@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.project_version}}"
+description = "{{cookiecutter.project_description}}"
+
+license = "{{cookiecutter.project_licence}}"
+
+authors = [
+    "{{cookiecutter.author_name}}"
+]
+
+readme = 'README.md' 
+
+keywords = ['profile', ]
+
+[tool.poetry.dependencies]
+python = "^3.8"  # Compatible python versions must be declared here
+toml = "^0.9"
+Django = "^3.0.5"
+django-cors-headers = "^3.2.1"
+djangorestframework = "3.11.0"
+drf-extensions = "^0.6.0"
+drf-nested-routers = "^0.91"
+PyYAML = "^5.3.1"
+black = "^19.10b0"
+ipython = "^7.13.0"
+djangorestframework-camel-case = "^1.1.2"
+uritemplate = "^3.0.1"
+coverage = "^5.1"
