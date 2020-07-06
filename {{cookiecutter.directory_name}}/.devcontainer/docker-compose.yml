@@ -4,8 +4,6 @@ services:
         build:
             context: ..
             dockerfile: .devcontainer/Dockerfile.dev
-        ports:
-            - {{cookiecutter.local_port}}:{{cookiecutter.container_port}}
         volumes:
             - ..:/usr/src/app
         command: sleep infinity
